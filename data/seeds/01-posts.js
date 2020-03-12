@@ -3,7 +3,7 @@ exports.seed = function(knex, Promise) {
     .truncate()
     .then(function() {
       return knex('posts').insert([
-        {
+        { 
           title:
             'I wish the ring had never come to me. I wish none of this had happened.',
           contents: 'Guess who said this',
